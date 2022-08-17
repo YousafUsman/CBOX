@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/YousafUsman.github.io/precache-manifest.d01012a722d8af8f6cdd8ca80109bcbb.js"
+  "/YousafUsman.github.io/test/precache-manifest.45cc092b5da2cdc503bad7d1ef8303ff.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/YousafUsman.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/YousafUsman.github.io/test/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
